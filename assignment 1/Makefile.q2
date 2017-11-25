@@ -1,0 +1,9 @@
+all: build
+
+build: main
+
+main: main.cpp vec2.cpp vec2.h
+	g++ main.cpp vec2.cpp -o main
+
+clean:
+	rm build

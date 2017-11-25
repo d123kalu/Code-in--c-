@@ -1,0 +1,6 @@
+A good way to improve the performance of the code would be to use a cache
+The cache is there to reduce the number of times the CPU would stall waiting
+for a memory request to be fulfilled, and as a second effect, possibly to reduce
+the overall amount of data that needs to be transfered. The setup would be, search
+the word, open the cache, does the word exist in cache, IF TRUE, read cache and
+print out, ELSE, search inside db.txt.
